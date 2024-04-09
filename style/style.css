@@ -1,0 +1,17 @@
+.bgimg{
+    background-image: url(/images/background-pattern-desktop.svg);
+}
+@font-face{
+    font-family: 'Yekan Bakh VF';
+    src:  url('/fonts/woff2/YekanBakh-VF.woff2') format('woff');
+}
+*{
+    font-family: 'Yekan Bakh VF';
+    
+}
+.test{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
